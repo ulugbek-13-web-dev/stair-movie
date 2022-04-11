@@ -1,0 +1,144 @@
+.movies-top-rated {
+    overflow-x: hidden;
+}
+
+.top {
+    height: 300px;
+    margin-left: 30px;
+}
+
+.top-rated-cont {
+    width: 90%;
+    display: flex;
+}
+
+.top-rated-cont img {
+    width: 50%;
+}
+
+.movies-top-rated {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-rated-cont {
+    width: 90%;
+}
+
+.top-image img {
+    width: 220px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.top-info {
+    transform: translateY(-300px);
+    width: 220px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-info-cont {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-btn {
+    display: flex;
+    justify-content: end;
+}
+
+.top-btn button {
+    width: 50px;
+    height: 50px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(110, 108, 108);
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.top-text {
+    opacity: 0.8;
+}
+
+.top-text h2 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.top-text p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.top-rated-btn {
+    padding: 30px 0;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.top-rated-btn-cont {
+    width: 13%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+
+.btn:hover {
+    background-color: rgb(148, 5, 5);
+}
+
+.btn:hover i {
+    color: white;
+}
+
+.btn i {
+    color: gray;
+}
+
+.top-rated-subtitle {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.top-rated-subtitle-cont {
+    width: 90%;
+    padding: 30px 0;
+}
+
+.top-rated-subtitle-cont h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: rgb(100, 94, 94);
+    font-weight: 400;
+}
+
+
+/* .top-rated-cont {
+    transform: translateX(-300px);
+} */

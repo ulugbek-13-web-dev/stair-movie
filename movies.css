@@ -1,0 +1,114 @@
+.movies {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.movies-cont {
+    width: 90%;
+}
+
+.movie-slider {
+    width: 100%;
+}
+
+.movie-image {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.movie-image img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+.movie-info {
+    position: absolute;
+    top: 30%;
+    width: 40%;
+    padding: 30px 60px;
+}
+
+.movie-text h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    color: white;
+}
+
+.movie-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.movie-btn {
+    padding: 20px 0;
+}
+
+.movie-watch-btn {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(148, 5, 5);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.movie-add {
+    background-color: rgb(110, 108, 108);
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-left: 20px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.movie-next-prev {
+    padding: 20px 0;
+    display: flex;
+    justify-content: end;
+}
+
+.movie-btn-cont {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.next-btn,
+.prev-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+    background-color: rgb(148, 5, 5);
+}
+
+.prev-btn:hover i,
+.next-btn:hover i {
+    color: white;
+}
+
+.prev-btn i,
+.next-btn i {
+    color: gray;
+}
