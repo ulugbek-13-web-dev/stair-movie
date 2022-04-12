@@ -7,7 +7,6 @@ let url2 = 'https://api.themoviedb.org/3/person/popular?api_key=d54f1a6164bfe4d1
 fetch(url2)
     .then((res) => res.json())
     .then((value) => {
-        console.log(value.results)
         let fragment = document.createDocumentFragment()
         for (let i = 0; i < value.results.length; i++) {
             let top = document.createElement('div')
@@ -48,7 +47,7 @@ fetch(url2)
     .then((response) => {
         let images = document.querySelectorAll('.top-rated-cont img')
         let size = images[3].clientWidth;
-        console.log(size)
+        
         next.addEventListener('click', () => {
             if (counter === 19) {
                 counter = 1
@@ -58,7 +57,7 @@ fetch(url2)
                 counter++
                 slider.style.transition = '0.6s ease'
                 slider.style.transform = 'translateX(' + (-size * counter) + 'px)'
-                console.log(counter)
+               
             }
 
         })
@@ -71,7 +70,6 @@ fetch(url2)
                 slider.style.transition = '0.6s ease'
                 counter--
                 slider.style.transform = 'translateX(' + (-size * counter) + 'px)'
-                console.log(counter)
             }
 
         })
