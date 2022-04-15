@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+.searchbar{
+    background-color: blue;
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+}
+.searchbar-cont{
+    width: 70%;
+    border-radius: 30px;
+    padding: 10px 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.searchbar input{
+    width: 75%;
+
+}
+.searchbar input::placeholder,
+.searchbar input{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.searchbar-cont i{
+    color: gray;
+}
+.searchbar input{
+    border: none;
+    outline: none;
+}

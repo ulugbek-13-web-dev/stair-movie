@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Raleway:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-body {
+    display: flex;
+}
+
+.first-section {
+    background-color: white;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+
+.first-cont {
+    width: 85%;
+}
+
+.second-section {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.third-section {
+    width: 20%;
+}
+
+li {
+    list-style-type: none;
+}
+
+.logo-cont {
+    display: flex;
+    padding: 20px 0;
+}
+
+.logo-img img {
+    width: 30px;
+}
+
+.logo-text {
+    padding: 0 20px;
+}
+
+.logo-text h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(94, 93, 93);
+}
+
+.sidebar-section p {
+    padding: 0 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: rgb(122, 121, 121);
+}
+
+.sidebar-section i {
+    color: rgb(122, 121, 121);
+    transition: 0.5s ease;
+}
+
+.sidebar-section li:hover i {
+    color: rgba(190, 14, 14, 0.651);
+}
+
+.sidebar-section li:hover p {
+    color: rgb(87, 84, 84);
+}
+
+.birinchi-li {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(160, 158, 158);
+}
+
+.menu {
+    padding: 20px 0;
+}
+
+.sidebar-section li {
+    padding: 10px 0;
+}
+
+.sidebar-section a {
+    display: flex;
+    text-decoration: none;
+}
+
+.social {
+    padding: 20px 0;
+}
+
+.general {
+    padding: 20px 0;
+}
+
+.movie-1 p {
+    font-size: 30px;
+}
